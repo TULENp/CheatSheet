@@ -1,4 +1,4 @@
-# Шпаргалка по Vue 3 Options api, React и React Native (functional component)
+# Шпаргалка по Vue 3 Options api, React и React Native (оба functional component)
 
 # Оглавление
 
