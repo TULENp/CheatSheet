@@ -313,7 +313,7 @@ export default {
 - **Virtual DOM** и диффинг для минимального обновления реального DOM
 - **Хуки** (`useState`, `useEffect`, `useContext` и т. д.) вместо классовых компонентов
 - **Однонаправленный поток данных**: `props` вниз, события/колбэки вверх
-- **Обширная экосистема**: рендеринг на сервере (Next.js), мобильные (React Native), статическую генерацию
+- **Обширная экосистема**: рендеринг на сервере (Next.js), мобильные (React Native), статическая генерация
 - **Функциональный стиль** и композиция логики через кастом‑хуки
 
 ### 1. **`useState`** – локальный стейт и его обновление;
@@ -407,7 +407,7 @@ export default {
      return (
        <div>
          <p>Message: {msg}</p>
-         <button onClick={() => onReply({ from: 'child' })}>
+         <button onClick={() => onReply('hello from child')}>
            Reply
          </button>
        </div>
@@ -478,7 +478,8 @@ export default {
 - **State‑менеджмент**
     - Redux (+ Redux Toolkit)
     - MobX
-    - Recoil
+    - Pinia
+    - Zustand
 - **SSR / Meta‑framework**
     - Next.js
     - Gatsby
@@ -489,6 +490,7 @@ export default {
     - Semantic UI React
 - **Запросы и кеширование**
     - React Query
+    - Tanstack Query
     - SWR
 - **Формы и валидация**
     - Formik
